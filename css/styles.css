@@ -1,0 +1,79 @@
+/*                                  INICIO FOOTER                            */
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: gray;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+}
+
+.linksContainer{
+    color: aliceblue;
+}
+
+.linksContainer h2{
+    padding-bottom: 20px;
+}
+.linksContainer li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.linksContainer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+    color: beige;
+    align-items: center;
+    width: 50%;
+}
+
+.mailContainer{
+    background-color: gray;
+    padding: 10px;
+    width: 90%;
+}
+
+.mailContainer input{
+    height: 40px;
+    width: 83%;
+}
+
+.mailContainer button{
+    height: 40px;
+    width: 15%;
+    text-align: center;
+}
+
+.iconsContainer svg{
+    padding: 0 50px;
+}
+.iconsContainer a{
+    text-decoration: none;
+}
+
+
+/*                                  FIN FOOTER                            */
