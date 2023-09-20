@@ -10,11 +10,192 @@
     <title>Papeleria</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class=""></div>
-        </nav>
-    </header>
+
+    <!------------------------------------------------------ INICIO SECCION MAIN ------------------------------------------->
+    <h1>Papeleria milenio</h1>
+    <main>
+        <section class="productZone">
+
+            <div class="products">
+
+                <article class="cardProduct">
+                    <div class="imagePackage">
+                        <img src="/imagenes/guillotina.jpg" class="productImage">
+                    </div>
+                    <div class="infoCard">
+                        <p class="description">Corta tus hojas como en la epoca medieval</p>
+                        <p class="price"><span class="money">$</span>120<span class="point">.</span>000</p>
+                        <p class="nameProduct">Guillotina Para Papel</p>
+                    </div>
+                    <div class="buy">
+                        <div class="incrementShop"> 
+                            <!-- <button type="button" class="lessButton">-</button> -->
+                            <input type="number" class="quantity" id="quantityGuillotina" step="1" min="1" max="" name="quantity" value="1" size="4" pattern="[0-9]*" inputmode="numeric">
+                            <!-- <button type="button" class="plusButton">+</button> -->
+                        </div>
+                        <a href="javascript:agregarProducto({'Producto':'Guillotina','precio':120000})" class="buyButton" id="buyGuillotina" rel="nofollow">Comprar</a>
+                    </div>
+                </article> 
+
+                <article class="cardProduct">
+                    <div class="imagePackage">
+                        <img src="/imagenes/papiros.jpg" class="productImage">
+                    </div>
+                    <div class="infoCard">
+                        <p class="description">Papiros de la tumba de tutankamon</p>
+                        <p class="price"><span class="money">$</span>230<span class="point">.</span>000</p>
+                        <p class="nameProduct">Papiros * 10 U</p>
+                    </div>
+                    <div class="buy">
+                        <div class="incrementShop"> 
+                            <!-- <button type="button" class="lessButton" onclick="decrementar()">-</button> -->
+                            <input type="number" class="quantity" id="quantityPapiros" step="1" min="1" max="" name="quantity" value="1" size="4" pattern="[0-9]*" inputmode="numeric">
+                            <!-- <button type="button" class="plusButton" onclick="incrementar()">+</button> -->
+                        </div>
+                        <a href="javascript:agregarProducto({'Producto':'Papiros','precio':230000})" class="buyButton" id="buyPapiros" rel="nofollow">Comprar</a>
+                    </div>
+                </article> 
+
+                <article class="cardProduct">
+                    <div class="imagePackage">
+                        <img src="/imagenes/resma.jpg" class="productImage">
+                    </div>
+                    <div class="infoCard">
+                        <p class="description">Hojas traidas de la epoca renacentista</p>
+                        <p class="price"><span class="money">$</span>24<span class="point">.</span>000</p>
+                        <p class="nameProduct">Resma de papel antiguo</p>
+                    </div>
+                    <div class="buy">
+                        <div class="incrementShop"> 
+                            <!-- <button type="button" class="lessButton">-</button> -->
+                            <input type="number" class="quantity" id="quantityResma" step="1" min="1" max="" name="quantity" value="1" size="4" pattern="[0-9]*" inputmode="numeric">
+                            <!-- <button type="button" class="plusButton">+</button> -->
+                        </div>
+                        <a href="javascript:agregarProducto({'Producto':'Resma','precio':24000})" class="buyButton" id="buyResma"  rel="nofollow">Comprar</a>
+                    </div>
+                </article> 
+            </div>
+
+            <div class="products">
+                <article class="cardProduct">
+                    <div class="imagePackage">
+                        <img src="/imagenes/origami.jpg" class="productImage">
+                    </div>
+                    <div class="infoCard">
+                        <p class="description">Adorna tu mesa con figuras creadas por Kangxi</p>
+                        <p class="price"><span class="money">$</span>12<span class="point">.</span>000</p>
+                        <p class="nameProduct">Figuras en origami</p>
+                    </div>
+                    <div class="buy">
+                        <div class="incrementShop"> 
+                            <!-- <button type="button" class="lessButton">-</button> -->
+                            <input type="number" class="quantity" id="quantityOrigami" step="1" min="1" max="" name="quantity" value="1" size="4" pattern="[0-9]*" inputmode="numeric">
+                            <!-- <button type="button" class="plusButton">+</button> -->
+                        </div>
+                        <a href="javascript:agregarProducto({'Producto':'Origami','precio':12000})" class="buyButton" id="buyOrigami" rel="nofollow">Comprar</a>
+                    </div>
+                </article> 
+
+                <article class="cardProduct">
+                    <div class="imagePackage">
+                        <img src="/imagenes/tinta.jpg" class="productImage">
+                    </div>
+                    <div class="infoCard">
+                        <p class="description">Tinta a base de sangre de dragon</p>
+                        <p class="price"><span class="money">$</span>150<span class="point">.</span>000</p>
+                        <p class="nameProduct">Tinta china</p>
+                    </div>
+                    <div class="buy">
+                        <div class="incrementShop"> 
+                            <!-- <button type="button" class="lessButton">-</button> -->
+                            <input type="number" class="quantity" id="quantityTinta" step="1" min="1" max="" name="quantity" value="1" size="4" pattern="[0-9]*" inputmode="numeric">
+                            <!-- <button type="button" class="plusButton">+</button> -->
+                        </div>
+                        <a href="javascript:agregarProducto({'Producto':'Tinta','precio':150000})" class="buyButton" id="buyTinta"  rel="nofollow">Comprar</a>
+                    </div>
+                </article> 
+
+                <article class="cardProduct">
+                    <div class="imagePackage">
+                        <img src="/imagenes/caballete.png" class="productImage">
+                    </div>
+                    <div class="infoCard">
+                        <p class="description">Caballete al estilo de Picasso</p>
+                        <p class="price"><span class="money">$</span>449<span class="point">.</span>000</p>
+                        <p class="nameProduct">Caballete mediano</p>
+                    </div>
+                    <div class="buy">
+                        <div class="incrementShop"> 
+                            <!-- <button type="button" class="lessButton">-</button> -->
+                            <input type="number" class="quantity" id="quantityCaballete" step="1" min="1" max="" name="quantity" value="1" size="4" pattern="[0-9]*" inputmode="numeric">
+                            <!-- <button type="button" class="plusButton">+</button> -->
+                        </div>
+                        <a href="javascript:agregarProducto({'Producto':'Caballete','precio':449000})" class="buyButton" id="buyCaballete" rel="nofollow">Comprar</a>
+                    </div>
+                </article> 
+            </div>
+
+            <div class="products">
+                <article class="cardProduct">
+                    <div class="imagePackage">
+                        <img src="/imagenes/acuarelas.jpg" class="productImage">
+                    </div>
+                    <div class="infoCard">
+                        <p class="description">Pinta al estilo de Durero</p>
+                        <p class="price"><span class="money">$</span>35<span class="point">.</span>000</p>
+                        <p class="nameProduct">Acuarela</p>
+                    </div>
+                    <div class="buy">
+                        <div class="incrementShop"> 
+                            <!-- <button type="button" class="lessButton">-</button> -->
+                            <input type="number" class="quantity" id="quantityAcuarela" step="1" min="1" max="" name="quantity" value="1" size="4" pattern="[0-9]*" inputmode="numeric">
+                            <!-- <button type="button" class="plusButton">+</button> -->
+                        </div>
+                        <a href="javascript:agregarProducto({'Producto':'Acuarela','precio':35000})" class="buyButton" id="buyAcuarelas"  rel="nofollow">Comprar</a>
+                    </div>
+                </article> 
+
+                <article class="cardProduct">
+                    <div class="imagePackage">
+                        <img src="/imagenes/clip.jpg" class="productImage">
+                    </div>
+                    <div class="infoCard">
+                        <p class="description">Sujetadores de la II guerra mundial</p>
+                        <p class="price"><span class="money">$</span>5<span class="point">.</span>000</p>
+                        <p class="nameProduct">Sujetador de papel</p>
+                    </div>
+                    <div class="buy">
+                        <div class="incrementShop"> 
+                            <!-- <button type="button" class="lessButton">-</button> -->
+                            <input type="number" class="quantity"  id="quantityClip" step="1" min="1" max="" name="quantity" value="1" size="4" pattern="[0-9]*" inputmode="numeric">
+                            <!-- <button type="button" class="plusButton">+</button> -->
+                        </div>
+                        <a href="javascript:agregarProducto({'Producto':'Clip','precio':5000})" class="buyButton" id="buyClip" rel="nofollow">Comprar</a>
+                    </div>
+                </article> 
+
+                <article class="cardProduct">
+                    <div class="imagePackage">
+                        <img src="/imagenes/sello.jpg" class="productImage">
+                    </div>
+                    <div class="infoCard">
+                        <p class="description">Sella tu amor como romeo y julieta</p>
+                        <p class="price"><span class="money">$</span>77<span class="point">.</span>000</p>
+                        <p class="nameProduct">Sello para cartas</p>
+                    </div>
+                    <div class="buy">
+                        <div class="incrementShop"> 
+                            <!-- <button type="button" class="lessButton">-</button> -->
+                            <input type="number" class="quantity" id="quantitySello" step="1" min="1" max="" name="quantity" value="1" size="4" pattern="[0-9]*" inputmode="numeric">
+                            <!-- <button type="button" class="plusButton">+</button> -->
+                        </div>
+                        <a href="javascript:agregarProducto({'Producto':'Sello','precio':77000})" class="buyButton" id="buySello" rel="nofollow">Comprar</a>
+                    </div>
+                </article> 
+            </div>
+        </section>
+    </main>
+        <!------------------------------------------------------ FINAL SECCION MAIN ------------------------------------------->
     <script src="/js/script.js"></script>
 </body>
 </html>

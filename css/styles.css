@@ -1,0 +1,92 @@
+/* <!------------------------------------------------------ INICIO SECCION MAIN -------------------------------------------> */
+main{
+    background-color:  burlywood;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-image: linear-gradient(360deg, burlywood 30%, #000000 120%);
+    /* width: 100%; */
+}
+
+.productZone{
+    display: flex;
+    flex-direction: column; 
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.productImage{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.cardProduct{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: black 2px solid;
+    width: 220px;
+    height: 480px;
+    background-color: rgb(255,255,255);
+    background-image: linear-gradient(360deg, #f1f1f1 0%, burlywood 30%, #000000 120%);
+    box-shadow: 10px 8px 5px rgb(116, 114, 114);
+    transition: 0.8s; 
+}
+
+.cardProduct:hover{
+    width: 230px;
+    height: 490px;
+    box-shadow: 10px 8px 5px rgba(248, 223, 1, 0.384);
+    background-image: linear-gradient(360deg, #f1f1f1 0%, burlywood 38%, #000000 120%);
+}
+
+.description{
+    font-size: 20px;
+    color: #000000;
+    transition: 0.8s;
+}
+
+.description:hover{
+    font-size: 21px;
+    color: #f1f1f1;
+    
+}
+
+.money,.point{
+    color: rgb(0, 0, 0);
+}
+
+.buy{
+    display: flex;
+    flex-direction: row;
+}
+
+.incrementShop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.buyButton{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: black;  
+    font-family: arial; 
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #ffc400 0%, #ffffff 120%);
+    padding: 5px;
+    border-radius: 10px;
+    border: rgb(0, 0, 0) 1px solid;
+    color: black;
+}
+
+/* <!------------------------------------------------------ FINAL SECCION MAIN -------------------------------------------> */
