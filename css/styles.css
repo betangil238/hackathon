@@ -1,0 +1,51 @@
+
+/*inicio encabezado  -------------------------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    font-family: "Poppins";
+    display: flex;
+
+}.hero { 
+    display: inline-block;
+    display: flex;
+   
+   
+}
+
+
+
+  .title {
+    font-size: 25px;
+    flex: 1;
+    margin:20%;
+  }
+
+  .links {
+  flex: 1;
+  display: flex;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 300;
+  padding: 10px;
+  font-size: 15px;
+  margin: 20%;
+  }
+  .link {
+    flex: 1;
+    margin: 5%;
+  }
+  .shoppingCart{
+    flex: 1;
+    margin: 20%;
+  }
+  #tabla {
+    display: none;
+    
+  }
+
+  /*fin encabezado---------------------------------------------------------------------------------------*/
